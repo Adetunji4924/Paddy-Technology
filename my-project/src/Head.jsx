@@ -1,7 +1,7 @@
 import Header from './Header.jsx'
 function Head() {
     return(
-        <div className='md:px-[5rem] px-[2rem] pt-[2rem] bg-grad'>
+        <div className='md:px-[5rem] px-[2rem] pt-[2rem] bg-grad bg-cover'>
             <Header />
             <div className='flex flex-col sm:flex-row justify-between items-center sm:py-[5rem] py-[3rem] gap-4'>
                 <div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Footer() {
     return(
         <div className=" flex flex-col bg-footer bg-center bg-cover bg-no-repeat px-10 py-10">
@@ -6,8 +7,8 @@ function Footer() {
                 <div>
                     <p className="font-Dappio text-lg font-semibold text-white">Website</p>
                     <ul>
-                        <li><a className="font-Dappio text-sm hover:underline text-white" href="\">building</a></li>
-                        <li><a className="font-Dappio text-sm hover:underline text-white" href="\">search engine</a></li>
+                        <li><Link to="website-building" className="font-Dappio text-sm hover:underline text-white">Building</Link></li>
+                        <li><Link to="search-engine" className="font-Dappio text-sm hover:underline text-white">Search Engine</Link></li>
                         <li><a className="font-Dappio text-sm hover:underline text-white" href="\">Wechat development</a></li>
                         <li><a className="font-Dappio text-sm hover:underline text-white" href="\">Virtual host</a></li>
                     </ul>

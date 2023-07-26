@@ -26,7 +26,9 @@ export default {
         wavy1: "url('./src/images/image 13 (1).png')",
         wavy2: "url('./src/images/image 12.png')",
         contact: "url('./src/images/Group 1000004418.png')",
-        footer: "url('./src/images/Footer.png')"
+        footer: "url('./src/images/Footer.png')",
+        website: "url('./src/images/Cover02.png')",
+        search: "url('./src/images/image 656.png')"
       },
 
       screens: {
